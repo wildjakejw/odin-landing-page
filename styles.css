@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.main-layout {
+    padding: 10px 200px;
+}
+
+/* hero background color same */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+/* hero text same */
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: auto;
+}
+
+.header .container {
+    display: flex;
+    gap: 10px;
+}
+
+/* hero secondary text same font/color */
+.header-links {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
