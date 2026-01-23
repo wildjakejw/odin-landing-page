@@ -86,3 +86,51 @@ button {
     flex-basis: 100%;
     justify-content: space-evenly;
 }
+
+.information-section {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.information-section-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.information-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-image > * {
+    flex-basis: 100%;
+}
+
+.information-image-placeholder {
+    aspect-ratio: 1 / 1;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.information-section.main-layout {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+.image-subtext {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
