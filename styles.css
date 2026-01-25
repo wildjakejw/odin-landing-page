@@ -12,8 +12,8 @@ a {
 button {
     align-self: start;
     background-color: #3882F6;
-    border: 2px solid white;
     border-radius: 5px;
+    border-width: 0px;
     color: #F9FAF8;
     font-weight: 900;
     padding: 6px 24px;
@@ -179,6 +179,7 @@ button {
 
 .sign-up-button {
     align-self: center;
+    border: 2px solid white;
 }
 
 .footer.main-layout {
