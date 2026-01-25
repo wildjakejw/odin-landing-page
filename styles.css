@@ -133,4 +133,21 @@ button {
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section.main-layout {
+    padding: 130px 330px;
+}
+
+.source {
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
 }
